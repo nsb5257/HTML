@@ -1,16 +1,14 @@
-// main.dart (or any other main entry point file)
 
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'task2(iii).dart'; // Import the Event class defined in event.dart
+import 'task2(iii).dart'; 
 
 void main() {
   runApp(app());
 }
 
 class app extends StatelessWidget {
-  // Sample list of events
   final List<Event> events = [
     Event(
       title: 'Hi',
